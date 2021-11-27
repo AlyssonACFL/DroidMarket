@@ -1,13 +1,13 @@
-import React from "react";
-
 interface Produto{
     codigo?: number;
-    nomeProduto: String;
-    secao: String;
-    valor: number;
-    quantidade: number;
-    unidade: String;
-    marca: String;
-    dataValidade: Date;
-    dataFabricacao: Date;
+    nomeProduto?: string;
+    secao?: string;
+    valor?: number;
+    quantidade?: number;
+    unidade?: string;
+    marca?: string;
+    dataValidade?: Date;
+    dataFabricacao?: Date;
 }
+
+export default Produto;
